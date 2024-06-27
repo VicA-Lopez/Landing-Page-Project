@@ -101,3 +101,26 @@ a{
     text-align: center;
 }
 
+.quote-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 100px 0;
+}
+
+.quote{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 600px;
+    font-size: 36px;
+    font-family: "light italics";
+    color: #1f2937;
+}
+
+.quote p{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: baseline;
+}
