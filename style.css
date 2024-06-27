@@ -123,4 +123,37 @@ a{
     flex: 1;
     justify-content: flex-end;
     align-items: baseline;
+    margin: 0;
+}
+
+.action-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 200px;
+}
+
+.action-container .box{
+    display: flex;
+    flex: auto;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 32px 100px;
+    color: #e5e7eb;
+}
+
+.box button{
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid #e5e7eb;
+    border-radius: 8px; 
+    padding: 4px 32px;
+}
+
+.box p{
+    margin: 0;
 }
